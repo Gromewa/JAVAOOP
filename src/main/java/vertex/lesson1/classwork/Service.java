@@ -14,9 +14,9 @@ public class Service {
         return database.getMas()[0];
     }
 
-    public String getLast() {
-
-    }
+//    public String getLast() {
+//
+//    }
 
 
     public String[] getByName(String name) {
