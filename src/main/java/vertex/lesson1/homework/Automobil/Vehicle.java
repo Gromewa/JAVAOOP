@@ -2,38 +2,27 @@ package vertex.lesson1.homework.Automobil;
 
 public class Vehicle {
 
-    private String model;
-    private String color;
-    private String make;
+        private String colore;
+        private String modele;
 
-    public Vehicle(String m, String c, String mk) {
-        model = m;
-        color = c;
-        make = mk;
+        Vehicle(String color, String model) {
+            this.colore = color;
+            this.modele = model;
+        }
+
+    public void drive() {
 
     }
 
-    public String getMarka() {
-        return model;
+    public void stop() {
+
     }
 
-    public void setMarka(String marka) {
-        this.model = marka;
+    public void park() {
+
     }
 
-    public String getColor() {
-        return color;
+       public void horn() {
+            System.out.println("Ту ту");
+        }
     }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public String getMake() {
-        return make;
-    }
-
-    public void setMake(String make) {
-        this.make = make;
-    }
-}
